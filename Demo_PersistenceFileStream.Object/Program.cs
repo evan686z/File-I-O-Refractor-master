@@ -31,9 +31,6 @@ namespace Demo_PersistenceFileStream
             // initialize a list of HighScore objects
             highScoresClassListWrite = InitializeListOfHighScores();
 
-            // Testing github commit
-            Console.WriteLine("Testing if it sends to GitHub!");
-
             Console.WriteLine("The following high scores will be added to Data.txt.\n");
             // display list of high scores objects
             DisplayHighScores(highScoresClassListWrite);
